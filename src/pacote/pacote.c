@@ -7,7 +7,8 @@ struct pacote
     int id;
     float volumeEmLitros;
     float pesoEmGramas;
-    int estadoPacote; // Indica se o pacote está dentro dos padrões (0 ou 1)
+    int estadoPacote; // Indica o estado do pacote (0 [vazio] ou 1 [cheio])
+    int condicoes; // Indica se o pacote está dentro dos padrões (0 [ko] ou 1 [ok])
 };
 
 struct no
