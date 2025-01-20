@@ -1,0 +1,10 @@
+# Como formatar o ficheiro?
+Inserir os valores, separados por espaço, na seguinte ordem:
+        -> ID
+        -> Volume em Litros
+        -> Peso em Gramas
+        -> Estado do Pacote[vazio (0), cheio (1)]
+    
+    exemplo:
+        123 1.0 1.5 0 (Pacote vazio de 1L com peso de 1.5g)
+        231 0.2 1.0 1 (Pacote cheio de 200ml com peso de 1.0g)
